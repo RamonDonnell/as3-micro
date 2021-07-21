@@ -7,4 +7,5 @@
 This works
 ```
 curl --request POST --header 'content-type: application/json' --url http://localhost:3000/graphql --data '{"query":"query { __typename }"}'
+curl --request OPTIONS --url http://localhost:3000/graphql
 ```
